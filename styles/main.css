@@ -30,9 +30,7 @@ section{
  
  margin-bottom: 30px;
 }
-.main-row{
-    display: flex;
-}
+
 
 td, th{
     border: 2px solid gray;

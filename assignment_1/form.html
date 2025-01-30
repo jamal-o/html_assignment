@@ -4,17 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../styles/css-reset.css" />
-		<link rel="stylesheet" href="../styles/main.css" />
+
 		<link rel="stylesheet" href="form.css" />
 		<title>Form</title>
-		<style>
-	
-		</style>
+		<style></style>
 	</head>
 	<body>
 		<!-- image section -->
 		<div class="main-row">
-			<aside>
+			<aside class="aside">
 				<svg
 					role="img"
 					aria-label="Auth Wrapper Illustrations"
@@ -349,44 +347,43 @@
 				</p>
 			</aside>
 			<main>
-				<p>
+				<p class="right_align">
 					Already an AltScholar?&nbsp; <span class="blue_font">Sign In!</span>
 				</p>
-				<header>
-					<h1>Signup</h1>
-				</header>
 
-				<p class="grey_text">
-					Take the next steps to apply at AltSchool Africa
-				</p>
-				<form>
-					<div class="grid">
-						<label for="firstname"
-							>First Name
-
-							<p>
-								<input type="text" id="firstname" placeholder="First Name" />
-							</p>
-						</label>
-
-						<label for="lastname"
-							>Last Name
-
-							<p><input type="text" id="lastname" placeholder="Last Name" /></p>
-						</label>
-
-						
+				<div>
+					<header>
+						<h1>Signup</h1>
+					</header>
+	
+					<p class="grey_text">
+						Take the next steps to apply at AltSchool Africa
+					</p>
+					<form>
+						<div class="grid">
+							<label for="firstname"
+								>First Name
+	
+								<p>
+									<input type="text" id="firstname" placeholder="First Name" />
+								</p>
+							</label>
+	
+							<label for="lastname"
+								>Last Name
+	
+								<p><input type="text" id="lastname" placeholder="Last Name" /></p>
+							</label>
+	
 							<label for="email"
 								>Email
-
+	
 								<p><input type="email" id="email" placeholder="Email" /></p>
 							</label>
-					
-
-						
+	
 							<label for="gender"
 								>Gender
-
+	
 								<p>
 									<select id="" placeholder="Select gender">
 										<option>Male</option>
@@ -394,82 +391,88 @@
 									</select>
 								</p>
 							</label>
-						
-
-						
+	
 							<label for="dob"
 								>Date of Birth
-
+	
+								<p>
+									<input type="date" width="" id="dob" placeholder="dd/mm/yyy" />
+								</p>
+							</label>
+	
+							<label for="phoneno"
+								>Phone Number
+	
+								<p>
+									<input type="tel" id="phoneno" placeholder="Phone Number" />
+								</p>
+							</label>
+	
+							<label for="country"
+								>Country of Residence
+	
 								<p>
 									<input
-										type="date"
-										width=""
-										id="dob"
-										placeholder="dd/mm/yyy"
+										type="text"
+										id="country"
+										placeholder="Country of Residence"
 									/>
 								</p>
 							</label>
-						
-
-						<label for="phoneno">Phone Number
-
-							<p><input type="tel" id="phoneno" placeholder="Phone Number" /></p>
-						</label>
-
-						<label for="country">Country of Residence
-
+	
+							<label for="state"
+								>State of Residence
+	
+								<p>
+									<input
+										type="text"
+										id="state"
+										placeholder="State of Residence"
+									/>
+								</p>
+							</label>
+	
+							<label for="password"
+								>Password
+	
+								<p>
+									<input type="password" id="password" placeholder="Password" />
+								</p>
+							</label>
+	
+							<label for="confirmPassword"
+								>Confirm Password
+	
+								<p>
+									<input
+										type="text"
+										id="confirmPassword"
+										placeholder="ConfirmPassword"
+									/>
+								</p>
+							</label>
+						</div>
+	
+						<label for="referral"
+							>How did you hear about us?
 							<p>
 								<input
 									type="text"
-									id="country"
-									placeholder="Country of Residence"
+									id="referral"
+									placeholder="Optional: Let us know how you found us"
 								/>
 							</p>
 						</label>
-
-						<label for="state">State of Residence
-
-							<p>
-								<input type="text" id="state" placeholder="State of Residence" />
-							</p>
-						</label>
-
-						<label for="password">Password 
-
-							<p>
-								<input type="password" id="password" placeholder="Password" />
-							</p>
-						</label>
-
-						<label for="confirmPassword">Confirm Password 
-
-							<p>
-								<input
-									type="text"
-									id="confirmPassword"
-									placeholder="ConfirmPassword"
-								/>
-							</p>
-						</label>
-					</div>
-
-					<label for="referral">How did you hear about us?
+	
 						<p>
-							<input
-								type="text"
-								id="referral"
-								placeholder="Optional: Let us know how you found us"
-							/>
+							By clicking continue, I agree to <a>Terms of Use</a> and acknowledge
+							that I have read the <a>Privacy Policy</a>.
 						</p>
-						</label>
-
-					<p>
-						By clicking continue, I agree to <a>Terms of Use</a> and acknowledge
-						that I have read the <a>Privacy Policy</a>.
-					</p>
-
-					<button type="button">Signup</button>
-				</form>
+	
+						<button type="button">Signup</button>
+					</form>
+				</div>
+				
 			</main>
 		</div>
 	</body>
