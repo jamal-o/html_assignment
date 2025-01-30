@@ -6,14 +6,36 @@
 		<meta name="description" content="Main page for assigment 2" />
 		<link rel="stylesheet" href="../styles/css-reset.css" />
 		<link rel="stylesheet" href="../styles/main.css" />
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				margin: unset;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			nav{
+				width: 40%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 40px;
+				a{
+					display: block;
+				}
+			}
+		</style>
 		<title>Assingment 2 Main page</title>
 	</head>
 	<body>
 		<nav>
-			<ul>
-				<li><a href="media.html">Media Page</a></li>
-				<li><a href="table.html">Table Page</a></li>
-			</ul>
+			<a class="button" href="media.html">Media Page</a>
+			<a class="button" href="table.html">Table Page</a>
 		</nav>
 	</body>
 </html>
