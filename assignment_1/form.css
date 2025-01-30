@@ -36,28 +36,40 @@ div.socials {
 		height: 16px;
 	}
 }
-
+nav {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.button {
+	color: white;
+	background: #2ec4b6;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border: none;
+	padding: 16px;
+	border-radius: 2px;
+	text-decoration: none;
+}
 form {
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1.5rem;
 	}
-    > * {
-        padding-block: 8px;
-    }
+	> * {
+		padding-block: 8px;
+	}
 
-    button {
-        width: 100%;
-        padding: 6px;
-        background-color: #0367f2;
-        border: none;
-        color: white;
-    }
+	button {
+		width: 100%;
+		padding: 6px;
+		background-color: #0367f2;
+		border: none;
+		color: white;
+	}
 
-    select{
-        
-    }
+	select {
+	}
 }
 
 .blue_font {
@@ -82,7 +94,6 @@ main p.right_align {
 	right: 20px;
 	/* padding: 20px 20px 0px 0px; */
 }
-
 
 /* @media (max-width: 990px) {
 	aside {
