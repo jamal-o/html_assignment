@@ -68,7 +68,10 @@ form {
 		color: white;
 	}
 
-	select {
+	select,
+	input {
+		width: 100%;
+		height: 30px;
 	}
 }
 
@@ -87,6 +90,7 @@ main {
 	flex: 1 1 0%;
 	display: flex;
 	align-items: center;
+	padding: 20px;
 }
 main p.right_align {
 	position: absolute;
